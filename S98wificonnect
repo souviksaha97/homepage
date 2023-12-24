@@ -1,0 +1,9 @@
+#!/bin/sh
+
+# Loading the modules needed by my app:
+modprobe 8188eu
+ 
+# Launching my app:
+/root/boot_script.sh &          # <-- Don't forget the "&" otherwise other system stuff won't start until you leave your app !!!
+
+exit 0
